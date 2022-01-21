@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Ejemplo de Buscador</title>
+</head>
+<body>
+
+    <header>
+        <div class="head">
+            <div class="logo"><img class="marca" src="../img/concello.jpg" alt="sol"></div>
+            <div class="user">
+                <h3>Login:<br>Usuari@</h3>
+            </div>
+            <div class="menu">
+                <ul class="menu">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="calendario.html">Calendario</a></li>
+                    <li><a href="empresas.html">Empresas</a></li>
+                    <li><a href="personas.html">Persoas</a></li>
+                    <li><a href="consultas.html">Consultas</a></li>
+                    <li><a href="../index.html">Saír</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="pages">
+        <div class="page">
+            <div class="title">
+                <h1>Persoas</h1><br>
+            </div>
+            <div class="menu-page-box">
+                <div class="menu-box">
+                    <h2>Menú de navegación</h2><br>
+                    <div class="menu-ver">
+                        <ul>
+                            <li><a href="buscador-persona.html">Buscador</a></li>
+                            <li><strong><a href="crear-persona.html">Nova Persoa</a></strong></li>
+                            <li>Ficha de Persoa</li>
+                            <li>Táboas de Persoas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="page-box">
+                    <h2>Nova Persoa</h2><br>
+                    <div class="menu-form">
+                        <ul class="menu-form">
+                            <li><strong>Datos Persoais</strong></li>
+                            <li>Formación</li>
+                            <li>Experiencia</li>
+                            <li>Acción co SOL</li>
+                        </ul>
+                    </div>
+
+                    <form class="crea-persona" action="">
+                        <div class="campo">
+                            <label for="nombre">Nome e Apelidos:</label>
+                            <input type="text" id="nombre">
+                        </div>
+                        <div class="campo">
+                            <label for="dni">DNI:</label>
+                            <input type="text" id="dni">
+                        </div>
+                        <div class="campo">
+                            <label for="gen">Xénero:</label>
+                            <select id="gen" name="gen">
+                                <option value="1">Muller</option>
+                                <option value="2">Home</option>
+                                <option value="3">Non definido</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="fecha">Data de Nacemento</label>
+                            <input type="date" id="fecha">
+                        </div>
+                        <div class="campo">
+                            <label for="pais">Nacionalidade:</label>
+                            <input type="text" id="pais">
+                        </div>
+                        <div class="campo">
+                            <label for="zona">Poboación:</label>
+                            <input type="text" id="zona">
+                        </div>
+                        <div class="campo">
+                            <label for="cp">Código Postal:</label>
+                            <input type="text" id="cp">
+                        </div>
+                        <div class="campo">
+                            <label for="tel">Teléfono:</label>
+                            <input type="tel" id="tel">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Correo / Email:</label>
+                            <input type="email" id="email">
+                        </div>
+
+                        <div>
+                            <input type="reset" value="Borrar" id="boton1">
+                            <input type="submit" value="Gardar" id="boton2">
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <h3>Servicio de Orientación Laboral | Vigo@2022</h3>
+        </div>
+    </footer>
+    
+</body>
+</html>

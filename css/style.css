@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+/* MAIN pagina de inicio*/
+main{
+    height: 60vh;
+}
+.fondo{
+    background-image: url(../img/concellofondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-box{
+    margin-top: 15vh;
+    /* margin-bottom: 10vh; */
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 40vh;
+    border: 2px solid black;
+    justify-content: space-between;
+    text-align: center;
+    color: darkred;
+    text-shadow: 1px 1px black;
+    background-color: rgba(135, 206, 250, 0.7) ;
+}
+.login-box h2{
+    margin-top: 5%;
+}
+.login{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.acceso{
+    width: 20%;
+    padding: 5px;
+    margin-top: 10px;
+    bottom: 20vh;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(255, 133, 133);
+}
+
+/* MAIN paginas */
+.pages{
+    height: auto;
+}
+.page{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.title{
+    text-decoration: underline red;
+}
+
+/* inicio y calendario */
+.opciones, .calendar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+}
+.opcion{
+    width: 30%;
+    height: 40vh;
+    margin: auto;
+    padding-top: 1%;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: rgb(253, 207, 150);
+}
+
+.enero, .muestra{
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+}
+.enero img{
+    width: 100%;
+    height: 90%;
+}
+
+.muestra{
+    display: flex;
+    flex-direction: column;
+}
+.buscador, .results{
+    height: 50%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+/* empresas, personas y consultas */
+.menu-page-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.menu-box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    align-self: center;
+}
+.menu-ver li{
+    width: 70%;
+    margin: auto;
+    list-style: none;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 1.2em;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.page-box{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.page-box p{
+    width: 80%;
+    margin: auto;
+    text-align:justify;
+}
+
+/* subapartados personas - buscador y creador */
+.busca-persona, .crea-persona{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; */
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.campo{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 12px 20px;
+}
+.campo label{
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    font-weight: bold;
+}
+.campo input, .campo select{
+    width: 40%;
+    margin: auto;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+input[type=reset], input[type=submit]{
+    width: 30%;
+    background-color: #92ff96;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 16px 0 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset]:hover, input[type=submit]:hover{
+    background-color: #65fd6a;
+    font-weight: bold;
+}
+
+.menu-form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+.menu-form li{
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(238, 198, 183);
+    font-size: 1.2em;
+}

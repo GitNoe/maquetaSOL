@@ -1,0 +1,44 @@
+/* HEADER */
+header, .logos, .head{
+    width: 100%;
+    height: 15vh;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+}
+.logo{
+    width: 15%;
+    justify-content: left;
+}
+.marca{
+    width: 100%;
+    height: 100%;
+}
+.user{
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: khaki;
+}
+.menu{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+.menu li{
+    width: auto;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+    background-color: lightsalmon;
+    font-size: 1.5em;
+    /* text-align: center;
+    justify-content: center; */
+}
